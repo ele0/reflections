@@ -8,3 +8,8 @@ A) What happens when you initialize a repository? Why do you need to do it?
 B) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	All files are actually contained within the working directory where git was installed. Only files actively being tracked by git are considered within the repository though. Staging area represents the status for a file that is being prepared for a commit into the repository. That is, it separates the files within the working directory that will be added to the repository from files that are still in the directory but wont be added to the respository. Then a commit, changes the status of the files in the staging area to being in the repository where they will be tracked by git.
+
+C) How can you use the staging area to make sure you have one commit per logical change?
+
+	after working on various files, you can place the logically connected files together and commit, before putting the other on and committing in a
+	separate commit.
