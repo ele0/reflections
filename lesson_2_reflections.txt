@@ -1,0 +1,10 @@
+Lesson 2 reflections:
+
+A) What happens when you initialize a repository? Why do you need to do it?
+
+	A ".git" folder and corresponding files are created. It is done in order to create all the files and resources needed to start using git commands
+	and all the benefits of git
+
+B) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	All files are actually contained within the working directory where git was installed. Only files actively being tracked by git are considered within the repository though. Staging area represents the status for a file that is being prepared for a commit into the repository. That is, it separates the files within the working directory that will be added to the repository from files that are still in the directory but wont be added to the respository. Then a commit, changes the status of the files in the staging area to being in the repository where they will be tracked by git.
