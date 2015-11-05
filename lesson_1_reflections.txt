@@ -1,0 +1,42 @@
+A) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Diff helped by highlighting the exact lines where the files had been different which were the same lines where changes had been introduced between
+	2 files. This drastically reduced the number of lines I had to check for the bug
+
+
+B) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	- It can make it easier to see what changes where introduced and why which could help prevent making the same mistakes again
+	- It can help you reverse complicated or bad changes made during the last coding session to a more stable version of your code instead of having to
+	re-implement the old version
+
+C) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Pros:
+		- The commits while probably be more logically contained. i.e. there will be less random/confusing stop points
+		- For code, significanly higher chance that the code will compile and work
+		- Allows one annotate the changes being made to help provide more context to what it was for vs reading the file
+		-
+
+	Cons:
+		- Could forget to commit often enough and lose changes due to lack of auto commits and the machine going bad
+		- More overhead to working instead of having it automatically taken care of for you
+
+D) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Because each snapshot is of the entire system with Git due to multiple interdependencies between files. Others systems tend to assume each file is self contained and if there are any inter-dependencies, it's up to the user to manage that. It also shows that they arent necessarily built to manage files used for coding with such high interdependency
+
+E) How can you use the commands git log and git diff to view the history of files?
+
+	git log especially with the option "--stat" will give all the commits in reverse chronological order as well as basic stats for each one like number of
+	insertions vs deletions, etc. Also git diff will give all the details of the changes between the 2 commits you pick.
+
+F) How might using version control make you more confident to make changes that could break something?
+
+	It's easy to revert back to a stable state, so one can be freer with trying things and making changes knowing you can always undo them easily and go back and forth too if necessary
+
+G) Now that you have your workspace set up, what do you want to try using Git for?
+
+	For my Nano-degree project and future open-source contributions
+
+
