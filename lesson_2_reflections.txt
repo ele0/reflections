@@ -11,5 +11,5 @@ B) How is the staging area different from the working directory and the reposito
 
 C) How can you use the staging area to make sure you have one commit per logical change?
 
-	after working on various files, you can place the logically connected files together and commit, before putting the other on and committing in a
+	after working on various files, you can place the logically connected files together and commit, before putting the other in the area and committing in a
 	separate commit.
