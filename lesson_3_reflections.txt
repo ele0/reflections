@@ -10,3 +10,12 @@ B) Why might you want to always pull changes manually rather than having Git aut
 	- In the case of pushing, you might want to finish the work you're doing before putting up on a public repository
 	- Gives you more control over what changes make it down into your local copy and how you want to handle those changes
 
+C) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	- A branch is a group of parent-child related commits within a git repository. Commits are related to each other via a tree structure
+	and new branches can be created of the line of commits all within the same repository.
+	- A clone, is a copy of a git repository that includes all the commits/branches and the associated history.
+	- When a github repository is cloned on a github server, that is referred to as a fork.
+
+	A clone is needed if a new copy of the repository is needed and you don't want to make any changes to the existing repository. A Fork is needed when you want to work on a respository on github, but you either don't want to make changes to the existing repository or you aren't allowed to make changes. A branch is needed if you want to keep working on the same repository but wish to group certain future changes together while allowing the original branch to be maintained separately.
+
