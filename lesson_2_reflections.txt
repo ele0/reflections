@@ -23,3 +23,12 @@ D) What are some situations when branches would be helpful in keeping your histo
 
 	Branches would help to keep a working version up to date without having to keep track of commit Ids, expecially if one needs to go and make bug fixes
 	on the main code while working on branched code.
+
+E) How do the diagrams help you visualize the branch structure?
+
+	They help by creating a visual representation of the branch structure
+
+F) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging combines all the commits in both branches to a new state that reflects all of them. It is represented the way we do because it shows that
+	all the history of both branches is preserved in the current result branch, not just a snapshot of the combined content.
