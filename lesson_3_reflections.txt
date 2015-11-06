@@ -17,5 +17,11 @@ C) Describe the differences between forks, clones, and branches. When would you 
 	- A clone, is a copy of a git repository that includes all the commits/branches and the associated history.
 	- When a github repository is cloned on a github server, that is referred to as a fork.
 
-	A clone is needed if a new copy of the repository is needed and you don't want to make any changes to the existing repository. A Fork is needed when you want to work on a respository on github, but you either don't want to make changes to the existing repository or you aren't allowed to make changes. A branch is needed if you want to keep working on the same repository but wish to group certain future changes together while allowing the original branch to be maintained separately.
+	A clone is needed if a new copy of the repository is needed and you don't want to make any changes to the existing repository. A Fork is needed when you want to work on a repository on github, but you either don't want to make changes to the existing repository or you aren't allowed to make changes. A branch is needed if you want to keep working on the same repository but wish to group certain future changes together while allowing the original branch to be maintained separately.
+
+D) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It allows you and git to merge properly when it is time to combine your local repository with the remote one. For example, git will be able to tell if and what	changes had been made remotely while you were working on your own copy.
+
+	Also you will be able to incorporate those changes when you are ready, work through any conflicts and merge before pushing back to the server.
 
