@@ -32,3 +32,15 @@ F) What is the result of merging two branches together? Why do we represent it i
 
 	Merging combines all the commits in both branches to a new state that reflects all of them. It is represented the way we do because it shows that
 	all the history of both branches is preserved in the current result branch, not just a snapshot of the combined content.
+
+G) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's basic automatic merging means the most obvios lines that were added or removed in exactly the same way such that the end result is the same
+	will be handled for you.
+
+	Pros:
+	- The process is simple and much more predictable
+	- User can be confident of the exact result of merges
+
+	Cons:
+	- Some more obvious differences in files with simple fixes are still left up to the user to work through
