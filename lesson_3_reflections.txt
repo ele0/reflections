@@ -22,6 +22,10 @@ C) Describe the differences between forks, clones, and branches. When would you 
 D) What is the benefit of having a copy of the last known state of the remote stored locally?
 
 	It allows you and git to merge properly when it is time to combine your local repository with the remote one. For example, git will be able to tell if and what	changes had been made remotely while you were working on your own copy.
-
 	Also you will be able to incorporate those changes when you are ready, work through any conflicts and merge before pushing back to the server.
 
+E) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Would need to use some other location to host files OR would learn and use SVN/CVS. Learning all the commands etc wouldn't be necessary if using something
+	like google docs/dropbox but would lose the benefits of doing reviews and so on from the web interface and controlling separation until ready to merge with the "master" version.
+	Would require a lot more trust between team members because people will need to not make changes to the master version until agreed. In general, you would need to create additional processes and/or rules to deal with many people editing the same file while protecting a master copy and so on.
