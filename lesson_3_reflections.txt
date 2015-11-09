@@ -35,4 +35,4 @@ F) When would you want to make changes in a separate branch rather than directly
 	When collaborating with a number of people, it's better to keep the master branch clean and work on edits in a separate branch before sending out the code
 	for a review and doing a final merge after someone else has gotten a chance to review the code.
 	Working directly in master, does minimise the number of steps and complication in making changes and forces one integrate before too many changes are made on the branch.
-	But working with a branch, allows for more checks and minimises the chance of the master branch being broken
+	But working with a branch, allows for more checks and minimises the chance of the master branch being broken during integrations
